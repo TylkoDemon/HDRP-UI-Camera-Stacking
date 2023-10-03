@@ -1,3 +1,4 @@
+#if USING_HDRP
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Experimental.Rendering;
@@ -16,3 +17,4 @@ namespace UnityEngine.Rendering.HighDefinition
         }
     }
 }
+#endif

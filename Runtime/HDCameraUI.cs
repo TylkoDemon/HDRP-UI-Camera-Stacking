@@ -1,3 +1,4 @@
+#if USING_HDRP
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Experimental.Rendering;
@@ -289,3 +290,4 @@ public class HDCameraUI : MonoBehaviour
 
     public static event Action<ScriptableRenderContext> OnAfterUIRendering;
 }
+#endif

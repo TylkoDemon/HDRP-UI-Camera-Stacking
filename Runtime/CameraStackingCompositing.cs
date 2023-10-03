@@ -1,3 +1,4 @@
+#if USING_HDRP
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -119,3 +120,4 @@ public static class CameraStackingCompositing
         CommandBufferPool.Release(cmd);
     }
 }
+#endif

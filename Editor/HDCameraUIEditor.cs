@@ -1,3 +1,4 @@
+#if USING_HDRP
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -159,3 +160,4 @@ public class HDCameraUIEditor : Editor
         // TODO: try to register changes in material property as a property block in the hdcameraUI to make it work with the animation system
     }
 }
+#endif
