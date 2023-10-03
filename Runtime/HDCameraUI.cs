@@ -290,4 +290,11 @@ public class HDCameraUI : MonoBehaviour
 
     public static event Action<ScriptableRenderContext> OnAfterUIRendering;
 }
+#else
+using UnityEngine;
+
+[RequireComponent(typeof(Camera))]
+public class HDCameraUI : MonoBehaviour
+{
+}
 #endif
